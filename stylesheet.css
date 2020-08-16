@@ -1,122 +1,57 @@
-a {
-  text-decoration: none;
-}
-/* 上のはこういうもの！ */
-
-/* header css */
-.header_container{
+header{
   width: auto;
-  height: 40px;
-  background-color:#AAAAAA
+  height: 180px;
+  background-color: white;
 }
 
-.header_left{
-font-size: 20px;
-color: #FFFFCC;
-padding-left: 10px;
-}
+/* main */
 
-.header_left p{
-  margin: 0 10px;
-}
-
-._color{
-  color: #0099FF;
-}
-
-.b_color{
-  color:  #0099FF;
-}
-
-.head_wrapper{
-  padding: 200px 0 40px 0;
-  color: #EEFFFF;
-  background-image: url(top_image.jpg);
-  background-size: cover;
-  text-align: center;
-}
-
-.head_wrapper p{
-  color: white;
-  text-shadow: 1px 1px 1px #003366;
-}
-
-.head_word{
-  padding-top: 40px;
-}
-
-.head_wrapper h1{
-  margin-bottom: 50px;
-}
-
-.head_word a{
-  background-color: #2C7CFF;
-  color: white;
-  padding:10px 24px;
-  display: inline-block;
-  letter-spacing: 2px;
-  border-radius: 7px;
-}
-
-/* main css */
-.top_wrapper{
-  height: 1000px;
+.main{
   width: auto;
-  background-color: #F8F8FF;
-  border: 1px solid black;
+  height: 900px;
+  background-color: mintcream;
 }
 
-.top_container p{
-  font-size: 40px;
-  text-align: center;
-  opacity:0.8;
-  margin-top: 0;
-  padding-top: 35px;
-  letter-spacing: 2px;
-}
-
-.container_left{
-  display: inline-block;
+.main_left{
+  /* display: inline-block; */
   float: left;
   width: 50%;
-  height: 400px;
+}
+.main_left img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 518px;
+  height: 340px;
 }
 
-.nayuta{
-  padding-left: 50%;
-}
-
-.container_right{
+.main_right{
+  /* display: inline-block; */
   float: right;
   width: 50%;
-  font-size: 20px;
-  height: 400px;
 }
 
-.container_portfolio{
-  width:100%;
-  text-align: center;
-  font-size: 40px;
-  margin-top: 530px;
+.main_right img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 522px; 
+  height: 735px;
 }
 
+/* sub main */
+.cheering h1{
+  border: 1px solid red;
+}
 
-
-
-/* footer css */
-.foot_container{
-  font-size: 40px;
+/* footer */
+footer{
+  height: 230px;
   width: auto;
-  height: 100px;
-  float: left;
-  margin: 0 0;
+  background-color: snow;
+  text-align: right;
+  padding-right: 30px;
 }
 
-.foot_container p{
-  margin: 0 0;
-}
 
-.thank{
-  font-size: 15px;
-  float: left;
+.Iinan_number{
+  padding-top: 10px;
 }
