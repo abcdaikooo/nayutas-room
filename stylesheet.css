@@ -1,57 +1,90 @@
+body{
+  margin: 0px;
+}
+
+
+
+.main{
+  background-color: rgb(191, 244, 206);
+}
+
+.sub_main{
+  background-color: rgb(207, 239, 236);
+}
+
+/* header CSS */
 header{
-  width: auto;
-  height: 180px;
+  height: 160px;
   background-color: white;
 }
 
-/* main */
-
-.main{
-  width: auto;
-  height: 900px;
-  background-color: mintcream;
+/* main CSS */
+.img{
+  height: 100px;
+  width: 100px;
+  margin: 0 5px;
+  background-color:rgb(239, 169, 20);
 }
 
-.main_left{
-  /* display: inline-block; */
-  float: left;
-  width: 50%;
-}
-.main_left img{
-  margin-left: auto;
-  margin-right: auto;
-  width: 518px;
-  height: 340px;
+.container{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
-.main_right{
-  /* display: inline-block; */
-  float: right;
-  width: 50%;
+.container:nth-child(even){
+  flex-direction: row-reverse;
 }
 
-.main_right img{
-  margin-left: auto;
-  margin-right: auto;
-  width: 522px; 
-  height: 735px;
+.container h3{
+  flex: 1;
+  font-weight: normal;
+  margin: 0;
 }
 
-/* sub main */
-.cheering h1{
-  border: 1px solid red;
+/* sub_main CSS */
+.sub_main h1{
+  font-weight: normal;
+  font-size: 25px;
 }
 
-/* footer */
+.sub_main h1 {
+  position: relative;
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 2px white;
+  padding: 0.1em 0.5em;
+  color: #454545;
+}
+
+.sub_main h1:after {
+  position: absolute;
+  content: '';
+  left: -7px;
+  top: -7px;
+  border-width: 0 0 15px 15px;
+  border-style: solid;
+  border-color: #fff #fff #a1a1d4ff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.NUM{
+  padding-top: 20px;
+}
+
+.nom{
+  margin: 0;
+  font-size: 14px;
+}
+
+
+/* footer CSS */
 footer{
-  height: 230px;
-  width: auto;
-  background-color: snow;
-  text-align: right;
-  padding-right: 30px;
+  padding-top: 15px;
+  font-size: 10px;
 }
 
-
-.Iinan_number{
-  padding-top: 10px;
+.IINAN  {
+  /*線の種類（二重線）太さ 色*/
+  border-bottom: double 5px #FFC778;
 }
