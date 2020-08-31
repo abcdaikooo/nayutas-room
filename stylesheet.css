@@ -1,30 +1,42 @@
 body{
   margin: 0px;
+  padding: 0 5px;
 }
 
-
-
-.main{
+/* .main{
   background-color: rgb(191, 244, 206);
-}
+} */
 
-.sub_main{
+/* .sub_main{
   background-color: rgb(207, 239, 236);
-}
+} */
 
 /* header CSS */
 header{
+  padding-top: 20px;
   height: 160px;
   background-color: white;
 }
 
-/* main CSS */
+.header-container{
+  display: flex;
+}
+
 .img{
   height: 100px;
   width: 100px;
   margin: 0 5px;
   background-color:rgb(239, 169, 20);
 }
+
+.container h2{
+  color: #25a7ae;
+  font-weight: normal;
+  font-size: 20px;
+  margin: auto;
+}
+
+/* main CSS */
 
 .container{
   display: flex;
@@ -41,6 +53,22 @@ header{
   font-weight: normal;
   margin: 0;
 }
+
+@media(min-width: 650px){
+  section{
+    display: flex;
+  }
+  .img{
+    height: 200px;
+    width: 200px;
+  }
+  .container{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+}
+
+
 
 /* sub_main CSS */
 .sub_main h1{
@@ -78,6 +106,10 @@ header{
 }
 
 
+.cheering{
+  padding-bottom: 20px;
+}
+
 /* footer CSS */
 footer{
   padding-top: 15px;
@@ -87,4 +119,25 @@ footer{
 .IINAN  {
   /*線の種類（二重線）太さ 色*/
   border-bottom: double 5px #FFC778;
+}
+
+.go_top{
+  margin: 15px auto;
+  display       : inline-block;
+  border-radius : 8%;          /* 角丸       */
+  font-size     : 9pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 8px 21px;   /* 余白       */
+  background    : #25a7ae;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  opacity       : 1;           /* 透明度     */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 1px 1px 3px #666666;  /* 影の設定 */
+}
+
+.go_top:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  opacity       : 0.8;         /* カーソル時透明度 */
 }
