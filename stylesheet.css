@@ -22,6 +22,13 @@ header{
   display: flex;
 }
 
+@media(min-width: 600px){
+  .header-container > img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
 .img{
   height: 100px;
   width: 100px;
@@ -54,17 +61,25 @@ header{
   margin: 0;
 }
 
-@media(min-width: 650px){
+@media(min-width: 600px){
+
   section{
-    display: flex;
+    display: block;
+    margin: 80px 10px;
   }
+
   .img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
   }
+
   .container{
     padding-top: 20px;
     padding-bottom: 40px;
+  }
+
+  .container h2{
+    font-size: 40px;
   }
 }
 
@@ -78,11 +93,11 @@ header{
 
 .sub_main h1 {
   position: relative;
-  background: #dfefff;
-  box-shadow: 0px 0px 0px 5px #dfefff;
+  background: #e0ffdf;
+  box-shadow: 0px 0px 0px 5px #8cceaf;  /* 枠組みの色 */
   border: dashed 2px white;
   padding: 0.1em 0.5em;
-  color: #454545;
+  color: #262424;
 }
 
 .sub_main h1:after {
@@ -92,8 +107,8 @@ header{
   top: -7px;
   border-width: 0 0 15px 15px;
   border-style: solid;
-  border-color: #fff #fff #a1a1d4ff;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(168, 212, 161); /* 枠内の色*/
+  box-shadow: 1px 1px 1px rgba(85, 139, 82, 0.229);
 }
 
 .NUM{
@@ -103,6 +118,12 @@ header{
 .nom{
   margin: 0;
   font-size: 14px;
+}
+
+@media(min-width: 600px){
+  .wood_book p{
+    font-size: 18px;
+  }
 }
 
 
@@ -116,9 +137,26 @@ footer{
   font-size: 10px;
 }
 
+@media(min-width: 600px){
+  footer{
+    font-size: 18px;
+  }
+
+  .IINAN{
+    font-size: 25px;
+  }
+
+  .Iinan_number{
+    text-align: center;
+  }
+  .Iinan_add{
+    text-align: center;
+  }
+}
+
 .IINAN  {
   /*線の種類（二重線）太さ 色*/
-  border-bottom: double 5px #FFC778;
+  border-bottom: double 5px #44e3e3;
 }
 
 .go_top{
