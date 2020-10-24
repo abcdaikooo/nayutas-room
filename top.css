@@ -1,0 +1,95 @@
+/* リセットcss */
+body,header{
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,ul{
+  font-weight: normal;
+  color: black;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* body css */
+body{
+  background-image: url(images/header-test.jpg);
+  background-size: cover;
+}
+
+/* header css */
+header{
+  width: auto;
+  height: 200px;
+  padding: 20px 30px;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  border-radius: 40%;
+}
+
+/* main css */
+main{
+  height: 600px;
+  width: auto;
+}
+
+.catch_copy p{
+  color: aliceblue;
+  font-size: 65px;
+  text-align: center; 
+  text-shadow: 1px 3px rgb(37, 17, 117);
+  
+  position: absolute;
+  top: 130px;
+  right: 60px;
+}
+
+.catch_copy h2{
+  color: aliceblue;
+  font-size: 65px;
+  text-align: center; 
+  text-shadow: 1px 3px rgb(37, 17, 117);
+  position: absolute;
+  top: 220px;
+  right: 60px;
+}
+
+.menus{
+  padding-top: 250px;
+}
+
+.menu a{
+  display: inline-block;
+  font-size: 30px;
+  color: rgb(202, 255, 255);
+  font-weight: bold;
+  text-shadow: 2px 1px rgb(0, 0, 0);
+  padding-left: 45px;
+  margin-top: 30px;
+  padding-right: 15px;
+}
+
+
+.menu :hover{
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 35px;
+}
+
+/* footer css */
+footer{
+  width: auto;
+  height: 60px;
+  background-color: rgb(230, 230, 231);
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer p{
+  letter-spacing: 1.2px;
+  padding-bottom: 10px;
+}
